@@ -1,0 +1,32 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+    background: url(base.png);
+    height: 630px;
+    width: 750px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+.xbox .triggers {
+    width: 446px;
+    height: 121px;
+    position: absolute;
+    left: 152px;
+}
+
+.xbox .trigger {
+    width: 88px;
+    height: 121px;
+    background: url(trigger.png);
+    opacity: 0;
+}
+
+.xbox .trigger.left {
+    float: left;
+    background-position: 0 0;
+}
+
+.xbox .trigger.right {
+    float: right;
+    transform: rotateY(180deg);
+}
