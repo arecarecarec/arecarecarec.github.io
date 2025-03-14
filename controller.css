@@ -1,6 +1,6 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url("base(1).png");
+    background: url("base.png");
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -10,7 +10,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(trigger.png);
+    background: url("trigger(1).png");
     opacity: 0;
 }
 
